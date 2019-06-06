@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DeltaTask2</string>
+    <string name="title_activity_rule">RuleActivity</string>
+</resources>

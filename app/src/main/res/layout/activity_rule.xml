@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RuleActivity"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:paddingRight="20sp"
+    android:paddingLeft="20sp"
+    android:background="#80f24949"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:text="RULES"
+        android:textColor="#800101"
+        android:textSize="60sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginBottom="20sp"
+        android:text="1. It's a 2-player game. Start the game by entering players' name."
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginBottom="20sp"
+        android:text="2. Insert the coins by hitting the down arrow. Player 1 (RED) and Player 2 (YELLOW) insert coins alternatively."
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_marginBottom="20sp"
+        android:text="3. Game ends when either all 42 holes are filled (that is a draw) or either of the player wins. Game can be won by a player if he gets 4 coins of his colors continuously, either horizontally, vertically or diagonally."
+        />
+
+    <Button
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO HOME"
+        android:textColor="#000"
+        android:onClick="BACK"
+        android:id="@+id/b3"
+        />
+</LinearLayout>
